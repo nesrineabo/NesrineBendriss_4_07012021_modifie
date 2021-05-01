@@ -825,17 +825,16 @@ h4 {
 }
 */
 
-.bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+.bg-darken{
+    filter:brightness(75%);
 }
 
-.bg-banniere-1 {
-    /*filter: brightness(50%); */
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+.bg-banniere {
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
