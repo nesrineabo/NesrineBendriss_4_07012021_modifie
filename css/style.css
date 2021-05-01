@@ -327,7 +327,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -653,7 +653,11 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1D2424!important;
+}
+
+cite{
+    color: #1D2424;
 }
 
 .container {
@@ -679,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.2em;
 }
 
 .tight-width-whitespace {
@@ -712,7 +716,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
