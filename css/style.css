@@ -327,7 +327,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -336,7 +336,9 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
+    font-weight: 700;
     background: transparent;
+    color: #1d2424;
 }
 
 .navbar-toggle {
@@ -653,7 +655,11 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #1D2424!important;
+    color: #1D2424;
+}
+
+blockquote{
+    font-style: italic;
 }
 
 cite{
@@ -683,7 +689,7 @@ cite{
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -701,25 +707,29 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.4em;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 1.5em;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
+    font-weight: bold;
+    color: #1D2424;
 }
 
 .med-width-whitespace {
@@ -742,7 +752,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -781,16 +791,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1D2424!important;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
+.btn-atomic-tangerine:hover, 
+.btn-atomic-tangerine:focus{
+    background: #bd6840!important;
     color: #FFFFFF!important;
 }
 
@@ -824,10 +835,6 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 */
-
-.bg-darken{
-    filter:brightness(75%);
-}
 
 .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.jpg");
