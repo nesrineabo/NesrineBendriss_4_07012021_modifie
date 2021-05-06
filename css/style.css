@@ -855,7 +855,7 @@ h4 {
 
 /* MEDIA QUERIES */
 
-@media (min-width:320px) and (max-width:460px){
+@media (min-width:320px) and (max-width:500px){
     .white{
         font-size: 22px;
     }
@@ -877,10 +877,12 @@ h4 {
     h2{
         font-size:24px;
     }
+
     /* .navbar-brand img{
         width:214px; 
         height:40px;
     } */
+
     .title h2{
         font-size:20px;
         font-weight: bold;
@@ -916,35 +918,24 @@ h4 {
     .col-sm-12 > p {
         font-size: 18px;
     }
-}
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 450px) {
     .black-background {
         padding-left: 0;
         padding-right: 0;
     }
-    h2 {
-        font-size: 1.5em;
-    }
+
     blockquote {
         font-size: 1em;
     }
-}
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
     }
+
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -953,7 +944,7 @@ h4 {
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
+    .nav > li .dropdown-menu a:hover a:focus {
         color: #484848;
     }
     .nav-invert .site-navigation {
@@ -966,8 +957,14 @@ h4 {
     .nav-center .navbar-header {
         width: 100%;
     }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
+
+    .navbar-logo {
+        display:flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .nav-center .nav-center .navbar-brand,
     .nav-center .nav > li {
         float: none;
         display: inline-block;
@@ -983,9 +980,15 @@ h4 {
         float: none;
         margin: 10px auto 0;
     }
+
+    
 }
 
 @media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1110,6 +1113,7 @@ h4 {
         display: flex;
         align-content: center;
         justify-content: center;
+        width: 100%;
     }
 
     .btn-dwn {
@@ -1127,6 +1131,14 @@ h4 {
     form {
         padding: 0.5em;
     }
+
+    .social{
+        margin: auto auto auto auto;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+    }
+
     /*--------------------------------------------------*/
     .form-position{
         margin: auto 5%;
