@@ -861,6 +861,20 @@ h4 {
     font-weight:600;
 }
 
+label{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.col-form{
+    align-self: center;
+}
+
+.formulaire-position{
+    margin: auto 25%;
+    width: 100%;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width:320px) and (max-width:500px){
