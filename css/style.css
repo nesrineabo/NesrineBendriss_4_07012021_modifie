@@ -19,7 +19,6 @@ button{
 }
 
 a:hover, a:focus {
-    color: none;
     text-decoration: none;
     cursor: pointer;
 }
